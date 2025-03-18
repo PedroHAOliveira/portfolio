@@ -40,7 +40,7 @@ Este portfólio foi desenvolvido para apresentar meu trabalho como desenvolvedor
 
 Se quiser conversar ou tem alguma sugestão, fique à vontade para me chamar:
 
-- 📧 **E-mail:** seuemail@email.com  
+- 📧 **E-mail:** oliveirapedroha@gmail.com  
 - 💼 [LinkedIn](https://www.linkedin.com/in/pedroh-oliveira/)  
 - 🐙 [GitHub](https://github.com/PedroHAOliveira)  
 - 📸 [Instagram](https://www.instagram.com/pedroh_aoliveira/)
