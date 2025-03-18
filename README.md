@@ -17,19 +17,8 @@ Este portfólio foi desenvolvido para apresentar meu trabalho como desenvolvedor
 
 - HTML5
 - CSS3
-- JavaScript
 - Flexbox
-- Responsividade
 
----
-
-## 📷 Capturas de Tela
-
-### 🌍 Página Inicial
-![Imagem da Página Inicial](assets/home-preview.png)
-
-### 🧑 Sobre Mim
-![Imagem da Página Sobre](assets/about-preview.png)
 
 ---
 
