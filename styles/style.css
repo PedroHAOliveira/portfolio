@@ -33,11 +33,20 @@ body {
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
-    font-weight: 600px;
-    color: #22D4FD;
+    font-weight: 500;
+    color: var(--cor-terciaria);
     text-decoration: none;
+    
 }
 
+.destaque {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: underline;
+    text-decoration-color: var(--cor-terciaria);
+}
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -94,10 +103,19 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
+
 }
 
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover)
+}
+
+.apresentacao__conteudo__texto a:hover {
+    color: var(--cor-secundaria); /* Mudar para branco */
+}
+
+.destaque:hover {
+    text-decoration-color: var(--cor-secundaria);
 }
 
 .eu {
