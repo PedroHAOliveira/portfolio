@@ -9,42 +9,47 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
+<body class="page-about">
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="projects.html">Projetos</a> 
         </nav>
     </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-
-            <p class="apresentacao__conteudo__texto">
+            <h1 class="apresentacao__conteudo__titulo hidden">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto hidden">
                 Sou <strong class="titulo-destaque">Pedro Oliveira</strong>, profissional com experiência em atendimento e suporte, em transição para a tecnologia. 
                 Curso <a class="destaque" href="https://www.google.com/search?q=analise+e+desenvolvimento+de+sistemas+explicacao">Análise e Desenvolvimento de Sistemas</a> 
                 na Estácio e participo do programa <a class="destaque" href="https://www.google.com/search?q=oracle+next+education">Oracle Next Education (ONE)</a>.
             </p>
-
-            <p class="apresentacao__conteudo__texto">
+            <p class="apresentacao__conteudo__texto hidden">
                 Tenho conhecimento em <strong class="titulo-destaque">Python, Java, JavaScript, HTML, CSS e Git/GitHub</strong>. 
                 Minhas habilidades de comunicação em <strong class="titulo-destaque">inglês e espanhol</strong> me permitem agilidade e objetividade, 
                 facilitando soluções em projetos de diferentes contextos culturais.
             </p>
-
-            <p class="apresentacao__conteudo__texto">
+            <p class="apresentacao__conteudo__texto hidden">
                 Com competências técnicas e uma jornada como PCD (ostomizado) que fortaleceu minha resiliência e adaptação, 
                 contribuo para soluções digitais práticas e inclusivas, com impacto social positivo e atenção às necessidades do usuário.
             </p>
         </section>
-
-        <img class="eu" src="./assets/Imagem.png" alt="Foto do Pedro Oliveira">
+        <div class="flip-container">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img class="eu" src="./assets/Imagem.png" alt="Foto do Pedro Oliveira">
+                </div>
+                <div class="flip-card-back">
+                    <img class="eu" src="./assets/Pedro_imagem.png" alt="Verso da carta">
+                </div>
+            </div>
+        </div>
     </main>
-
     <footer class="rodape">
         <p>Desenvolvido por Pedro Oliveira.</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
-
 </html>
