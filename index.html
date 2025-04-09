@@ -9,42 +9,49 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
+<body class="page-index">
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
         </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Seu sucesso digital começa com um<strong class="titulo-destaque"> front-end que representa você!
-            </strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou <a class="destaque" href="about.html">Pedro Oliveira</a>, desenvolvedor Front-end Júnior e
-            trabalho com JavaScript, HTML e CSS.
-            Meu foco é criar interfaces rápidas e intuitivas que prendem a atenção e refletem sua marca.
-            Vamos transformar suas ideias em realidade?</p>
+            <h1 class="apresentacao__conteudo__titulo hidden">Seu sucesso digital começa com um<strong class="titulo-destaque"> front-end que representa você!</strong></h1>
+            <p class="apresentacao__conteudo__texto hidden">Olá! Sou <a class="destaque" href="about.html">Pedro Oliveira</a>, desenvolvedor Front-end Júnior e trabalho com JavaScript, HTML e CSS. 
+                Meu foco é criar interfaces rápidas e intuitivas que prendem a atenção e refletem sua marca. Vamos transformar suas ideias em realidade?</p>
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links_subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/pedroh_aoliveira/">
-                    <img src="./assets/instagram.png">
-                    Instagram
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://github.com/PedroHAOliveira">
+                <h2 class="apresentacao__links_subtitulo hidden">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao hidden" href="https://github.com/PedroHAOliveira">
                     <img src="./assets/github.png">
                     GitHub
                 </a>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/pedroh-oliveira/">
+                <a class="apresentacao__links__navegacao hidden" href="https://www.linkedin.com/in/pedroh-oliveira/">
                     <img src="./assets/linkedin.png">
                     LinkedIn
                 </a>
+                <a class="apresentacao__links__navegacao hidden" href="https://www.instagram.com/pedroh_aoliveira/">
+                    <img src="./assets/instagram.png">
+                    Instagram
+                </a>
             </div>
         </section>
-        <img class="eu" src="./assets/Imagem.png" alt="Foto do Pedro Oliveira">
+        <div class="flip-container">
+            <div class="flip-card">
+                <div class="flip-card-front">
+                    <img class="eu" src="./assets/Imagem.png" alt="Foto do Pedro Oliveira">
+                </div>
+                <div class="flip-card-back">
+                    <img class="eu" src="./assets/Pedro_imagem.png" alt="Verso da carta">
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Pedro Oliveira.</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
-
 </html>
