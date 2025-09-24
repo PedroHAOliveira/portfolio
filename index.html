@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portfólio | Pedro Oliveira</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-
-<body class="page-index">
+<body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
@@ -17,38 +14,31 @@
             <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
         </nav>
     </header>
+
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo hidden">Seu sucesso digital começa com um<strong class="titulo-destaque"> front-end que representa você!</strong></h1>
-            <p class="apresentacao__conteudo__texto hidden">Olá! Sou <a class="destaque" href="about.html">Pedro Oliveira</a>, desenvolvedor Front-end Júnior e trabalho com JavaScript, HTML e CSS. 
-                Meu foco é criar interfaces rápidas e intuitivas que prendem a atenção e refletem sua marca. Vamos transformar suas ideias em realidade?</p>
+            <h1 id="typing-title" class="apresentacao__conteudo__titulo">Seu sucesso digital começa com um<strong class="titulo-destaque"> front-end que representa você!</strong></h1>
+            <p class="apresentacao__conteudo__texto animate-on-scroll">Olá! Sou <a class="destaque" href="about.html">Pedro Oliveira</a>, desenvolvedor Front-end Júnior. Meu foco é criar interfaces rápidas e intuitivas que prendem a atenção e refletem sua marca. Vamos transformar suas ideias em realidade?</p>
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links_subtitulo hidden">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao hidden" href="https://github.com/PedroHAOliveira">
-                    <img src="./assets/github.png">
-                    GitHub
-                </a>
-                <a class="apresentacao__links__navegacao hidden" href="https://www.linkedin.com/in/pedroh-oliveira/">
-                    <img src="./assets/linkedin.png">
-                    LinkedIn
-                </a>
-                <a class="apresentacao__links__navegacao hidden" href="https://vercel.com/pedro-oliveiras-projects-e0d97b68">
-                    <img src="./assets/Vercel.png">
-                    Vercel
-                </a>
+                <h2 class="apresentacao__links_subtitulo animate-on-scroll">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao animate-on-scroll" href="https://github.com/PedroHAOliveira" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="apresentacao__links__navegacao animate-on-scroll" href="https://www.linkedin.com/in/pedroh-oliveira/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a class="apresentacao__links__navegacao animate-on-scroll" href="https://vercel.com/pedro-oliveiras-projects-e0d97b68" target="_blank" rel="noopener noreferrer">Vercel</a>
             </div>
         </section>
-        <div class="flip-container">
+
+        <div class="flip-container animate-on-scroll">
             <div class="flip-card">
                 <div class="flip-card-front">
                     <img class="eu" src="./assets/Imagem.png" alt="Foto do Pedro Oliveira">
                 </div>
                 <div class="flip-card-back">
-                    <img class="eu" src="./assets/Pedro_imagem.png" alt="Verso da carta">
+                    <img class="eu" src="./assets/Pedro_imagem.png" alt="Outra foto do Pedro Oliveira">
                 </div>
             </div>
         </div>
     </main>
+
     <footer class="rodape">
         <p>Desenvolvido por Pedro Oliveira.</p>
     </footer>
